@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,10 +15,12 @@ export default function Home() {
             <li className="">Portfolio</li>
           </ul>
         </div>
-        <div className="">contact</div>
+        <div className="bg-black text-white p-2 rounded-xl hover:bg-white hover:border hover:border-2 hover:border-black hover:text-black">
+          contact me
+        </div>
       </div>
-      <div className="py-24 flex gap-10 items-center justify-between" id="home">
-        <div className="w-1/3">
+      <div className="pt-24 flex gap-10 items-center justify-between" id="home">
+        <div className="w-1/2">
           <div className="pt-10">------Web Developer</div>
           <div className="pt-5 text-6xl text-wrap font-extrabold leading-tight">
             Hello, I Have Web Development Experince
@@ -43,11 +47,37 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="m-10 mr-[200px]">
-          <div className="hexagon shadow-md"></div>
+          <div className="m-10 mr-4">
+            <div className="hexagon shadow-md"></div>
+          </div>
+          <div className="flex gap-3 ml-[200px]">
+            Check and follow me
+            <hr className="w-10 mt-3 border-slate-500 border-3"></hr>
+            <Link href="https://github.com/NabilaAzzahrra">
+              <FontAwesomeIcon icon={faGithub} className="w-5" />
+            </Link>
+            <Link href="https://www.instagram.com/zahrrranabill_/">
+              <FontAwesomeIcon icon={faInstagram} className="w-5" />
+            </Link>
           </div>
         </div>
       </div>
+      <div className="pt-10 flex gap-16">
+        <div className="">
+          <div className="text-[50px]">02+</div>
+          <p className="-mt-3">Year of Experiences</p>
+        </div>
+        <div className="">
+          <div className="text-[50px]">20</div>
+          <p className="-mt-3">Project Completed</p>
+        </div>
+      </div>
+
+      <div className="">
+        <div className="w-[400px] h-4 bg-slate-400 mt-10 rounded-tr-full rounded-br-full"></div>
+        <div className="w-[480px] h-4 bg-amber-200 rounded-tr-full rounded-br-full"></div>
+      </div>
+      
     </main>
   );
 }

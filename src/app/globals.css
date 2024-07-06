@@ -25,18 +25,3 @@
     background-repeat: no-repeat;
   }
 
-  /* .hexagon {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: transparent; 
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25 2.5 a2.5 2.5 0 0 1 2.5 -2.5 h45 a2.5 2.5 0 0 1 2.5 2.5 l22.5 37.5 a2.5 2.5 0 0 1 0 2.5 l-22.5 37.5 a2.5 2.5 0 0 1 -2.5 2.5 h-45 a2.5 2.5 0 0 1 -2.5 -2.5 l-22.5 -37.5 a2.5 2.5 0 0 1 0 -2.5 z" fill="white" /></svg>');
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25 2.5 a2.5 2.5 0 0 1 2.5 -2.5 h45 a2.5 2.5 0 0 1 2.5 2.5 l22.5 37.5 a2.5 2.5 0 0 1 0 2.5 l-22.5 37.5 a2.5 2.5 0 0 1 -2.5 2.5 h-45 a2.5 2.5 0 0 1 -2.5 -2.5 l-22.5 -37.5 a2.5 2.5 0 0 1 0 -2.5 z" fill="white" /></svg>');
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    background-image: url('/images/dua.png'); 
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  } */
-  
